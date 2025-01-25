@@ -1,5 +1,10 @@
-int x = 1;
+#include <stdio.h>
+#include <stdbool.h>
 
-if (x) {
-    printf("x is true!\n");
+int main(void) {
+    bool x = true;
+
+    if (x) {
+        printf("x is true!\n");
+    }
 }
